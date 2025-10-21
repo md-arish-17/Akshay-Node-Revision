@@ -1,12 +1,12 @@
 const data = require("./xyz")
-const {myFunc,x} = require("./sum")
+const {myFunc,myFunc2} = require("./calculate/calculation")
 
 const myName = "Arish"
-const a = 10710
-const b = 208292
+const a = 10
+const b = 20
 
 myFunc(a,b)
+myFunc2(a,b)
 
 console.log(myName)
-console.log(x)
 // console.log(a+b)
